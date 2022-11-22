@@ -1,0 +1,118 @@
+body {
+     background-color: #EBEBEB;
+ }
+
+ h1 {
+     font-family: 'Rubik Distressed', serif;
+     font-weight: bold;
+     font-style: normal;
+     font-size: 75px;
+     position: relative;
+     color: #990000;
+     text-shadow: -3px 3px 0 #fff,
+                         3px 3px 0 #fff,
+                         3px -3px 0 #fff,
+ 				        -3px -3px 0 #fff;
+ }
+
+ h1::before {
+     content: "";
+     background-image: url(https://img.freepik.com/premium-vector/skull-crossbones-seamless-pattern-holiday-halloween-wallpaper-wrapping-packing-backdrop_97231-395.jpg);
+     position: absolute;
+     top: 0px;
+     right: 0px;
+     bottom: 0px;
+     left: 0px;
+     opacity: 90%;
+     z-index: -1;
+ }
+
+ h2 {
+     font-family: banshee-std, sans-serif;
+     font-weight: bold;
+     font-style: normal;
+     letter-spacing: 2px;
+     color: #660011;
+     opacity: 75%;
+     font-size: 30px;
+     text-shadow: 5px 5px 5px #555555;
+ }
+
+ h3 {
+     font-family: nyx-std, sans-serif;
+     font-weight: 400;
+     font-style: normal;   
+ }
+
+ ol {
+     font-family: 'BIZ UDMincho', serif;
+ }
+
+ h4 {
+     font-family: nyx-std, sans-serif;
+     font-weight: bolder;
+     font-style: normal;   
+     letter-spacing: 1px;
+ }
+
+ table, tr, td {
+     border: 3px solid black;
+     border-collapse: collapse;
+ }
+
+ table {
+     height: 500px;
+     width: 500px;
+     background-color: #545454;
+     margin-top: 50px;
+ }
+
+ .center {
+     margin: auto;
+ }
+
+ button {
+     color: #b30000;
+     border: groove;
+     border-radius: 18%;
+     padding: 15px 20px;
+     display: inline-block;
+     font-family: banshee-std, sans-serif;
+     font-weight: bold;
+     font-size: 20px;
+     margin-right: 10px;
+     cursor: pointer;
+     background-color: #ffffff;
+ }
+
+ .button-center {
+     text-align: center;
+ }
+
+ button:hover {
+     color: #660033;
+ }
+
+ .page-footer {
+     padding-top: 500px; 
+     text-align: right;
+ }
+
+ p {
+     text-align: left;
+     font-size: 15px;
+     font-family: 'BIZ UDMincho', serif;
+     text-shadow: 0 7px 2px #C12200;
+ }
+
+ a:hover {
+     color: #8b0000;
+ }
+
+ a:active {
+     color: #100c08;
+ }
+
+ a:visited {
+     color: #ff2a00;
+ }
